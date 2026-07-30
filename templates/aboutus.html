@@ -1,0 +1,82 @@
+{% extends 'base.html' %} {% block title %}About Us - EditPro{% endblock %} {%
+block content %}
+<div class="container py-5">
+  <h1 class="text-center mb-5">About Us</h1>
+
+  <div class="row align-items-center">
+    <!-- Image -->
+    <div class="col-lg-5 mb-4">
+      <img
+        src="{{ url_for('static', filename='images/about-us.png') }}"
+        class="img-fluid rounded shadow"
+        alt="About EditPro"
+      />
+    </div>
+
+    <!-- About Text -->
+    <div class="col-lg-7">
+      <h3>Who We Are</h3>
+
+      <p>
+        EditPro was created to help content creators improve their video editing
+        skills through simple tutorials, trending editing ideas, and AI-powered
+        support. Our goal is to make high-quality editing accessible to
+        everyone, whether you're just starting or already creating videos for
+        thousands of viewers.
+      </p>
+
+      <p>
+        We believe that anyone can create amazing content with the right
+        guidance. That's why EditPro provides step-by-step lessons, editing
+        tips, popular effects, and recommendations for trending sounds—all in
+        one place.
+      </p>
+
+      <p>
+        Our mission is to inspire creativity, save creators time, and make
+        learning video editing fun and easy.
+      </p>
+
+      <a href="{{ url_for('aboutus') }}" class="btn btn-primary mt-3">
+        Explore Our Features
+      </a>
+    </div>
+  </div>
+
+  <!-- Values -->
+  <div class="row text-center mt-5">
+    <div class="col-md-4 mb-4">
+      <div class="card shadow-sm h-100 p-4">
+        <h2>🎯</h2>
+        <h4>Our Mission</h4>
+        <p>
+          To make professional editing skills available to everyone, regardless
+          of experience.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card shadow-sm h-100 p-4">
+        <h2>💡</h2>
+        <h4>Our Vision</h4>
+        <p>
+          To become the go-to platform for learning CapCut editing and
+          discovering the latest social media trends.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card shadow-sm h-100 p-4">
+        <h2>🚀</h2>
+        <h4>Our Goal</h4>
+        <p>
+          To help creators edit faster, grow their audience, and bring their
+          creative ideas to life.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

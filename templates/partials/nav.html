@@ -1,16 +1,21 @@
-<ul class="navbar-nav ms-auto">
-  <li class="nav-item">
-    <a
-      class="nav-link {% if request.endpoint == 'home' %}active{% endif %}"
-      href="{{ url_for('home') }}"
-      >Home</a
-    >
-  </li>
-  <li class="nav-item">
-    <a
-      class="nav-link {% if request.endpoint == 'contact' %}active{% endif %}"
-      href="{{ url_for('contact') }}"
-      >Contact</a
-    >
-  </li>
-</ul>
+<!-- Navigation Bar -->
+<nav class="navbar">
+    </a>
+    <div class="logo">
+      <a href="{{ url_for('home') }}">
+        <img
+          src="{{ url_for('static', filename='images/editpro-logo.png') }}"
+          alt="EditPro Logo"
+          class="navbar-logo"
+        />
+      </a>
+    </div>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="{{ url_for('home') }}">Home</a></li>
+    <li><a href="{{ url_for('feature') }}">Features</a></li>
+    <li><a href="{{ url_for('contact') }}">Contact us</a></li>
+    <li><a href="{{ url_for('aboutus') }}">About Us</a></li>
+  </ul>
+</nav>

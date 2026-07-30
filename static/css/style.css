@@ -5,6 +5,7 @@ body {
 }
 
 /* Add more custom styles as needed */
+
 /* Custom styles for My Flask Site */
 
 body {
@@ -62,4 +63,161 @@ section {
 
 section h2 {
   font-weight: bold;
+}
+
+/* Contact Page Styles */
+.map-container {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+  display: block;
+}
+
+.contact-info {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form Styles */
+.contact-form {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-control,
+.contact-form .form-select {
+  padding: 12px;
+  font-size: 1rem;
+}
+
+.contact-form .form-control:focus,
+.contact-form .form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.contact-form .btn {
+  padding: 12px;
+  font-weight: 600;
+}
+
+/* Make form labels slightly bold */
+.contact-form .form-label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+/* Navbar link colors */
+.navbar .nav-link {
+  color: #757ba0 !important; /* normal link color */
+  font-family: "Poppins", Arial, sans-serif; /* font */
+  font-size: 19; /* size */
+  font-weight: 600; /* thickness */
+}
+
+.navbar .nav-link:hover {
+  color: #022354 !important; /* hover color */
+}
+
+/* User form Subjects*/
+.subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.private-card .card-img-top {
+  height: 400px;
+  object-fit: cover;
+}
+
+.welcome-img {
+  width: 240px;
+  max-width: 100%;
+  height: auto;
+}
+
+.review-img {
+  width: 100%;
+  height: 370px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: linear-gradient(135deg, #000000 0%, #ff0066 50%, #9a4dff 100%);
+  color: white;
+}
+
+.navbar-logo {
+  height: 40px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #9a4dff;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 400;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: linear-gradient(135deg, #000000 0%, #ff0066 50%, #9a4dff 100%);
+}
+
+.navbar-logo {
+  height: 50px; /* Adjust logo size */
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px; /* Increase font size */
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #9a4dff;
 }

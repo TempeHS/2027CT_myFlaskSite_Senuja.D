@@ -1,0 +1,105 @@
+{% extends 'base.html' %} {% block title %}Features - EditPro{% endblock %} {%
+block content %}
+<div class="container py-5">
+  <h1 class="text-center mb-5">Our Features</h1>
+
+  <div class="row">
+    <!-- Left Column -->
+    <div class="col-lg-6 mb-4">
+      <div class="card shadow-sm p-4 h-100">
+        <h3 class="mb-4">Why Choose EditPro?</h3>
+
+        <p>
+          EditPro is designed to help creators of all skill levels make
+          professional-quality CapCut edits quickly and easily. Whether you're
+          editing for TikTok, Instagram Reels or YouTube Shorts, EditPro has
+          everything you need. Just sign up and get started! Edit like a Pro
+          with EditPro
+        </p>
+
+        <img
+          src="{{ url_for('static', filename='images/feature2.jpg') }}"
+          class="img-fluid rounded mt-3"
+          alt="EditPro Features"
+        />
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="col-lg-6 mb-4">
+      <div class="card shadow-sm p-4 h-100">
+        <h3 class="mb-4">What You'll Get</h3>
+
+        <div class="mb-4">
+          <h5>Step-by-Step Tutorials</h5>
+          <p>
+            Easy-to-follow guides that teach you how to recreate popular CapCut
+            edits from start to finish.
+          </p>
+        </div>
+
+        <div class="mb-4">
+          <h5>Trending Edit Styles</h5>
+          <p>
+            Stay up to date with the latest TikTok editing trends and effects
+            used by top creators.
+          </p>
+        </div>
+
+        <div class="mb-4">
+          <h5>Viral Music Library</h5>
+          <p>
+            Discover trending songs that can help your videos perform better on
+            social media.
+          </p>
+        </div>
+
+        <div class="mb-4">
+          <h5>AI Editing Assistant</h5>
+          <p>
+            Get instant help when you're stuck with effects, keyframes,
+            transitions or export settings.
+          </p>
+        </div>
+
+        <div class="mb-4">
+          <h5>Beginner Friendly</h5>
+          <p>
+            A clean and simple interface designed for beginners while still
+            offering powerful tools for experienced editors. Made for anyone who
+            just wants to have fun.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Section -->
+
+  <div class="row mt-5">
+    <div class="col-md-4 mb-4">
+      <div class="card text-center shadow-sm p-4 h-100">
+        <h2>500+</h2>
+        <h5>Tutorials</h5>
+        <p>Learn from hundreds of editing guides.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card text-center shadow-sm p-4 h-100">
+        <h2>100%</h2>
+        <h5>Free Resources</h5>
+        <p>Access templates, tips and guides without paying.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card text-center shadow-sm p-4 h-100">
+        <h2>24/7</h2>
+        <h5>AI Support</h5>
+        <p>Get help whenever you need it.</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -13,5 +13,15 @@ def contact():
     return render_template("contact.html")
 
 
+@app.route("/feature")
+def feature():
+    return render_template("feature.html")
+
+
+@app.route("/aboutus")
+def aboutus():
+    return render_template("aboutus.html")
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
