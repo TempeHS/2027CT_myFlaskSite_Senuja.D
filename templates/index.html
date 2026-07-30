@@ -86,7 +86,7 @@ block content %}
 
 <!-- Rest of page content -->
 <div class="container mt-5">
-  <h1>Welcome!</h1>
+  <h1>Welcome to EditPro!</h1>
   <p class="lead">This site is built with Flask</p>
 </div>
 
@@ -153,7 +153,25 @@ block content %}
           </div>
         </div>
       </div>
+            </div>
     </div>
   </div>
 </section>
-{% endblock %}
+<div class="col-md-4 mb-4">
+  <div class="card h-100">
+    <img
+      src="{{ url_for('static', filename='images/hero3.jpg') }}"
+      class="card-img-top"
+      alt="Feature 1"
+    />
+    <div class="card-body">
+      <h5 class="card-title">Tutorials</h5>
+      <p class="card-text">
+        Press here for easy-to-follow guides that teach you how to recreate
+        popular CapCut edits from start to finish.
+      </p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+    {% endblock %}
+  </div>
+</section>

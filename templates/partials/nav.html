@@ -1,21 +1,26 @@
 <!-- Navigation Bar -->
 <nav class="navbar">
+  <!-- Logo -->
+  <div class="logo">
+    <a href="{{ url_for('home') }}">
+      <img
+        src="{{ url_for('static', filename='images/editpro-logo.png') }}"
+        alt="EditPro Logo"
+        class="navbar-logo"
+      />
     </a>
-    <div class="logo">
-      <a href="{{ url_for('home') }}">
-        <img
-          src="{{ url_for('static', filename='images/editpro-logo.png') }}"
-          alt="EditPro Logo"
-          class="navbar-logo"
-        />
-      </a>
-    </div>
   </div>
 
-  <ul class="nav-links">
+  <!-- Hamburger Button -->
+  <button class="menu-toggle" id="menu-toggle">☰</button>
+
+  <!-- Navigation Links -->
+  <ul class="nav-links" id="nav-links">
     <li><a href="{{ url_for('home') }}">Home</a></li>
     <li><a href="{{ url_for('feature') }}">Features</a></li>
-    <li><a href="{{ url_for('contact') }}">Contact us</a></li>
+    <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
     <li><a href="{{ url_for('aboutus') }}">About Us</a></li>
+    <li><a href="{{ url_for('signup') }}">Sign Up</a></li>
+    <li><a href="{{ url_for('tutorials') }}">Tutorials</a></li>
   </ul>
 </nav>
