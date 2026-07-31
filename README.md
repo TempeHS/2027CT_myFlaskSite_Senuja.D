@@ -1,146 +1,126 @@
-
 # EditPro
 
-| Field                          | Detail |
-| ------------------------------ | ------ |
-| **Website Title**              |EditPro      |
-| **Student Name(s)**            |Senuja De Silva        |
-| **Class / Course**             |9CT1; 2027 Computer Technologies     |
-| **Repository**                 |2027CT_MyFlaskSite_Senuja.D https://github.com/TempeHS/2027CT_MyFlaskSite_Senuja.D      |
-| **Live Site / Codespaces URL** |https://fluffy-system-v64r9q5547x9hp4jp.github.dev/      |
-| **Date**                       |31/7/26        |
+| Field | Detail |
+|-------|--------|
+| **Website Title** | EditPro |
+| **Student Name(s)** | Senuja De Silva |
+| **Class / Course** | 9CT1; 2027 Computer Technologies |
+| **Repository** | 2027CT_MyFlaskSite_Senuja.D |
+| **Live Site / Codespaces URL** | *(Insert Codespaces URL here)* |
+| **Date** | 31/07/2026 |
 
-> Your website is the main piece of work. This README is short on purpose — it
-> points a reader to your **2-minute walkthrough** and gives an honest
-> **evaluation of what you delivered**.
+> EditPro is a website designed to help content creators improve their video editing skills through tutorials, editing tips and creative resources.
 
 ---
 
-## 1. Overview
+# 1. Overview
 
-**Purpose:** Studylog is an online website designed to support students from stage 3 to stage 6 (year 5 to year 12) in a range of core and elective subjects. This site will act as a source of summarised notes for students, featuring textbooks and online resources.
+### Purpose
 
-**Target audience:** The primary audience of Studylog are students from year 5 - 12, with the secondary audience being teachers, parents and guardians.
+EditPro is an online platform designed to help beginner and intermediate video editors improve their editing skills using easy-to-follow tutorials, trending editing techniques and creative resources. The website aims to make learning video editing simple, enjoyable and accessible.
 
-**Technology stack:** Python Flask · Jinja2 templates · Bootstrap (CDN) · custom CSS · pytest
+### Target Audience
 
----
+The primary audience of EditPro is teenagers and young adults who create content for platforms such as TikTok, Instagram Reels and YouTube Shorts. The secondary audience includes anyone interested in learning video editing or improving their creative skills.
 
-## 2. Walkthrough Video (2 minutes)
+### Technology Stack
 
-This is the most important part of your documentation — it shows your website running.
-
-<!--
-  Embed a ~2 minute walkthrough. Replace VIDEO_ID with your YouTube video ID:
-  [![Website Walkthrough](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-
-  OR link a screen recording stored in the repository:
-  [Watch the Walkthrough](./docs/walkthrough.mp4)
--->
-**Your walkthrough should show:**
-
-- A tour of each page (Home and Contact)
-- Your key Bootstrap components working (navbar, carousel, cards, map, form)
-- The layout responding when the window is resized (navbar collapsing to a hamburger)
-
-| Field / Feature           | Detail |
-| ---------------- | ------ |
-| **Homepage** |<img width="800" height="384" alt="homepage" src="https://github.com/user-attachments/assets/28e7fd79-7cc8-4294-bf4c-ed2c59bbf10d" /> <br> This is a tour of Studylog. Starting off from the homepage, it shows the hero carousel with the slides of "Get started today", "Subject choices" and "Contact us here". Bootstrap cards are used for 'What we offer', and the reviews section. The blue, styled buttons redirects users to other pages such as sign up, login and attributions.|
-| **Navbar**     |<img width="800" height="384" alt="navbar" src="https://github.com/user-attachments/assets/fef814a5-8b43-465b-b0d8-7e2d9d8d6c7a" /> <br> A showcase of the Bootstrap navbar, with buttons for Home, About Us, Subjects, Contact, Login, Sign Up and logo home redirection.|
-| **About Us**     |<img width="800" height="384" alt="about us" src="https://github.com/user-attachments/assets/8c412992-2b11-4539-99a7-a55320b48830" /> <br> Displays the About Us page, which contains information about "Who We Are", "Studylog's History" and "Our aim".|
-| **Subjects**     |<img width="800" height="384" alt="subject1" src="https://github.com/user-attachments/assets/4580a23e-1d85-4c83-9436-7f3b44228733" /> <br> Entering the Subject Page, which highlight the information we offer for Mathematics, English, Science, Geography, History, Coding, Japanese, Chinese and Commerce.|
-| **Contact Us**  |<img width="800" height="384" alt="contactus" src="https://github.com/user-attachments/assets/a987b179-9737-4e7d-a94a-0226b27b3d4c" /> <br> A page that allows users to view the map showing the location where the website was created, along with a sample phone number and email mentioned underneath. It also has the feature allowing users to send a message to us. By filling in the form correctly, it returns a thank you message.|
-| **Sign Up**|<img width="800" height="384" alt="sign up" src="https://github.com/user-attachments/assets/3f184dd9-d42d-49ee-beb0-2786ea266c2e" /> <br> Shows the Sign Up process, along with going to the "Already has an account?" button. For the signing up, it includes a username box, an email box where it must have an @ to be validated, and two password boxes that only allows the user to proceed when both passwords are the same.|
-| **Year Form and Dashboard**|<img width="800" height="384" alt="year form and dashboard" src="https://github.com/user-attachments/assets/0f7191ed-9ff0-4682-a42e-c2dab6c1675a" /> <br> A Year Form with a dropdown that allows users to select their year group for more accurate learning information, and a list of subjects we offer. The Dashboard shows a welcome message and updated changes along with two cards - one leading to Core Subject page and another to Elective Subject page.|
-| **Core Subjects**     |<img width="800" height="384" alt="core" src="https://github.com/user-attachments/assets/129f79c6-663a-4237-a23d-c00650280ce6" /> <br> A showcase of the files inside the Core page, along with the feature that the files that is displayed changes depending on the year group selected.|
-| **Elective Subjects**     |<img width="800" height="384" alt="elective" src="https://github.com/user-attachments/assets/7385db35-b3d3-4622-89c1-230d0c1344c7" /> <br> A showcase of the files inside the Elective page, with files that automatically change depending on the selected year group.|
-| **Login**     |<img width="800" height="384" alt="login" src="https://github.com/user-attachments/assets/e392bb06-45ba-4775-a0fd-a5afaa2c7a06" /> <br> Shows the process of logging in with the Name and Password field.|
-| **Attribution**     |<img width="800" height="384" alt="credits" src="https://github.com/user-attachments/assets/8191f704-2140-4063-b780-1cfe84d65fdc" /> <br> A page dedicated to attribute all of the materials and resources used for this website's creation.|
-| **Homepage on mobile**     |<img width="375" height="818" alt="mobile homepage" src="https://github.com/user-attachments/assets/cfba7bce-c8ee-4a9d-ac7b-acce5687134c" /> <br> A tour of the homepage on a mobile device. The navbar is collapsed into the hamburger format.|
-
+- Python Flask
+- Jinja2 Templates
+- Bootstrap
+- HTML5
+- CSS3
+- JavaScript
 
 ---
 
-## 3. Evaluation — Did You Deliver Your Statement of Intent?
+# 2. Walkthrough Video (2 minutes)
 
-This is the most important written part of your documentation. Evaluate the
-website you **delivered** against the **Statement of Intent** you wrote during
-planning. Be honest and use evidence — point to a page, a feature or a test.
+*(Insert your YouTube walkthrough link here.)*
 
-### 3.1 Your Statement of Intent
+### Your walkthrough should show:
 
-My website - Studylog is an online website designed to support students from stage 3 to stage 6 (year 5 to year 12) in a range of core and elective subjects. This site will act as a source of summarised notes for students, featuring textbooks and online resources, a community comment area where users are able to explain and discuss on specialised topics with each other. It will also include a sign-up form system to receive notifications for updated syllabus, along with options to select which subject the user intends to study. This statement of intent is a key principle in planning as it structures the website to be outstanding in quality, and satisfies the user as intended. 
+- Homepage
+- About Us page
+- Features page
+- Tutorials page
+- Contact page
+- Sign Up page
+- Responsive navigation bar
+- Hamburger menu on mobile
 
-Currently, passionate students across the globe are required to search for materials online to improve their learning for tests, assignments, and their general academic level. However, it is extremely time consuming for users to seek accessible information and documents that are relevant to their studies. This can interfere with student's available time for personal purposes. By analysing the problem that affects our possible users, plans are then first being developed, and a more refined solution and code for this situation can be created. 
+| Feature | Detail |
+|---------|--------|
+| Homepage | **(Insert screenshot here)**<br>The homepage introduces users to EditPro through a modern hero section, featured editing tools and navigation buttons leading to the rest of the website. |
+| Navbar | **(Insert screenshot here)**<br>A responsive navigation bar with links to Home, About Us, Features, Tutorials, Contact and Sign Up. On mobile devices it collapses into a hamburger menu. |
+| About Us | **(Insert screenshot here)**<br>Provides information about the purpose of EditPro, its creation and its mission to help creators improve their editing skills. |
+| Features | **(Insert screenshot here)**<br>Highlights the main features of EditPro including tutorials, AI assistance, trending editing styles and beginner-friendly learning resources. |
+| Tutorials | **(Insert screenshot here)**<br>A collection of embedded YouTube tutorials teaching editing techniques and effects for CapCut and other editing software. |
+| Contact | **(Insert screenshot here)**<br>Contains a Google Maps location, contact information and a Bootstrap contact form allowing users to send enquiries. |
+| Sign Up | **(Insert screenshot here)**<br>A registration page allowing users to create an account by entering a username, email and password. |
+| Mobile View | **(Insert screenshot here)**<br>Shows the responsive design including the hamburger navigation menu and mobile-friendly layout. |
 
-The main audience focussed by this website are students from stage 3 to stage 6 (year 5 -12) who are zealous in their learning career. The users that are targeted would be occupied by their learning and don't have enough time to view unnecessary documentation. This implies that the website must be simple and easy to use, along with a UI that could lead the users efficiently. Our secondary audience would be teachers, parents and guardians, who are tring to find suitable resources for their students / child. Identifying our primary and secondary audience allows the fundamental components of our design to be user friendly and targeted to ones who will actually use our website.
-
-By creating a website that directly supports learning quality, students could sign up and access our free to use information for their studies, discuss on unsure topics, and stay updated to new resources. This will lead to more study time as they wouldn't be required to seek available information online, and instead be able to access related information almost instantly from the website. This improves student's learning as they could revise more practice resources. It can also resolve the problem that material hunting affects user’s personal time, as everything a student needs is contained in just one website. Through identifying the issue and its outcome, it will guarantee that the website will be usable and effective upon its release. 
-
-Studylog is a study tool that could modify how students and teachers find resources, making users easier to enter in their learning or support other's knowledge. With updated syllabus resources, user comments and a sign up system to the website, it is expected to see an improvement in the member's quality of learning. This outcome is only seen through the planning process of identifying the issue and its solution, recognising the audience that we are trying to attract and determining the elements of the website. This will create a high quality base for a website that is designed for the users who will actually want to access it.
-
-
-### 3.2 What You Delivered
-
-| Page    | Route      | What it delivers |
-| ------- | ---------- | ---------------- |
-| Home    | `/`        | A responsive homepage that features a Bootstrap navbar that appears on all pages, a hero carousel with three slides, feature cards, sample review section and navigation buttons that connects to other key pages               |
-| Contact | `/contact` | A contact page with an embedded Google Map and a Bootstrap form for name, email and the message submission.           |
-| Attribution | `/by` | A dedicated attribution page crediting all materials used in the development of the website.                 |
-| About Us | `/aboutus` | An overview page that explaning the purpose of Studylog, and its creation, structed using the Bootstrap grid system layout.                |
-| Login | `/login` | A login page with a name and password form that redirects to dashboard when authenticated.            |
-| Sign Up | `/signup` | A sign up page collecting name, email, password and conformation of password. Includes validation of email by making sure @ is included, and the confirmation of password must be equal to the initial password. It then redirects user to year form after the criteria is satisfied. It records the name of user using session. |
-| Year Form | `/userform` | A form that applies the Bootstrap dropdown box to enable the user with selecting their year group for more accurate materials. It records the year group selected using session data.                |
-| Dashboard | `/userprivate` | A personalised dashboard displaying the user’s name, update messages, and two feature cards linking to core and elective resource hubs. Built using the Bootstrap grid system.                |
-| Core | `/core` | A core resource hub with the Bootstrap dropdown that automatically selects the year group saved using session. It then displays corresponding core subject materials that is put inside the project files.                 |
-| Elective | `/elective` | A elective resource hub with the Bootstrap dropdown that automatically selects the year group saved using session. It then displays corresponding elective subject materials that is put inside the project files.                  |
-| Subject Page| `/subject` | A subject overview page listing all available subjects with description. It is managed using the Bootstrap grid system.         |
-
-### 3.3 Evaluation Against Your Intent (2–3 paragraphs)
-
-> Take each aim in your Statement of Intent and evaluate **how well the
-> delivered site meets it**. Where did you meet your intent? Where did you fall
-> short, and why? Support every judgement with evidence from your site.
-
-<!-- Write 2–3 paragraphs. -->
-The primary aim of Studylog was to create a relevant and accessible learning platform that reduces the time that keen students spend searching for study materials. The current product delivered meets this aim decently through the use of /core and /elective page, which automatically loads the year specific content using session data. This ensures students to gain instant access to the correct materials without filtering manually. The /userprivate dashboard also reinforces the aim by establishing a clear entry point for users to navigate themselves efficiently to the material. However, the current website could be improved by adding more resources in to the website as it currently has only one material per subject per grade, which limits the diversity of information in the notes and papers. Additionally, the planned “community comment area” was not implemented, reducing opportunities for collaborative learning and peer discussion.
-
-The second aim that is being discussed is to design Studylog specifically for our audience. As mentioned in the Statement of Intent, our intended audience are Stage 3-6 students as primary, and teachers, parents, guardians as secondary. This intent is reflected throughout the site's structure through designing the website around the need of the personas created. By understanding what our audience needed, the navbar, homepage, dashboard, and authenticating pages has all avoided complexity, and became efficient to navigate. The routes /signup and /userform also only collected essential information to guide users directly to the contents. The secondary audience can freely browse all files in Studylog, allowing them to identify and provide proper and relevant information to their student or children. Despite the fact that the current website has achieved this goal satisfactorily, it still lacks improvements such as the implementation of the "syllabus update notification" said in the Statement of Intent, which would boost the quality of life for users overall.
-
-The final aim attempted to achieve in Studylog was to have a simple, yet efficient UI design for busy students and users with limited knowledge on technology to navigate themselves easily. The product created can be commented that it has achieved this criteria strongly through the use of a persistent navbar, homepage, Bootstrap elements and keeping consistency of it throughout all the pages. The navbar appears on every page, allowing the user to have a stable anchor point that allows them to move between pages efficiently without confusion. As for the homepage, it contributes to the aim through utilising hero carousel, feature cards and a clean layout. These aspects of the homepage allows Studylog to provide users with an immediate overview of the website without being too complicated and overwhelming. Lastly, Bootstrap elements such as "col-md" are used throughout the whole site, structuring into a clean and readable look. It also automatically adjusts the layout on different sized screens, ensuring that the contents are remained organised. However, there were drawbacks with reliance of the grid system such as that the content collapses into vertical stacks on smaller screen, which may cause some pages to be crowded. This shows that although the current website strongly matches the aim of simplicity and efficiency, experiences on smaller devices requires further optimisation.
-
-
-### 3.4 Overall Effectiveness (1–2 paragraphs)
-
-> Step back from the detail. Overall, **how effective** is the website at
-> achieving its purpose for its target audience? Weigh what works against what
-> falls short, and state what you would improve to better meet your intent.
-
-<!-- Write 1–2 paragraphs. -->
-In conclusion, Studylog is reasonably effective, as it matches the aims of being relevant to study, targeted to our intended audience, and simple to navigate . It has made learning easier to access with the simple navigation, automatic year group loading feature, and a clean dashboard that separates core and elective resources. These features allow users to locate materials quickly without confusion. However, the site's effectiveness is limited as there are small numbers of changes that could be made, including to add more study resources, implementation of syllabus update and community area, and enhancing the layout of Studylog on all devices.
-
-The single improvement that would most significantly upgrade Studylog is the implementing of the community comment area. This change has the potential to turn Studylog from a resource hub, into an active learning environment. Applying this would significantly enhance the collaborative learning between students, as it allows student to ask questions and provide feedback. In teacher's perspective, having the community area allows them to clarify topics for their students, and parents / guardians could engage in their child's learning more by understanding the topic and teaching it to their child. By intergrading this feature, Studylog would transform into a user-centred website, evolving into a platform that supports collaboration rather than just delivering static resources.
 ---
 
-## 4. Acknowledgements
+# 3. Evaluation — Did You Deliver Your Statement of Intent?
 
-> List anything you did not make yourself — tutorials, images, fonts, icons and
-> libraries. Using content without acknowledgement may constitute academic
-> misconduct.
+## 3.1 Statement of Intent
 
-| What you used | Source / Creator | Licence | What you used it for   |
-| ------------- | ---------------- | ------- | ---------------------- |
-| Bootstrap     | Bootstrap team   | MIT     | Layout and components  |
-| Flask         | Pallets Projects | BSD     | Web server and routing |
-| Images        | Magnific                 |Magnific Free License         |Images for /, and /subject                       |
-| Images        | illustAC                 |illustAC Standard Usage License         |Images for /, and /userprivate                         |
-| Images        | ソコスト                |ソコスト's Terms of Use        |Image for /userprivate                         |
-| Images        | Unsplash              |Unsplash License       |Image for /subject                      |
-| Images        | Hutaba            |Futaba's Free Illustration Terms of Use     |Image for /subject                      |
-| Images        | Tegaki Desuno             |てがきですのβ!'s Free Proprietary terms of use      |Images for /, and /userform                     |
-| YouTube Videos| YouTube | N/A     | Tutorials and contents to enhance the code |
-| Font      | Google |SIL Open Fonts License      | Texts in Studylog |
-| Website Learning Modules| Mr Jones; HSC Software Engineering |N/A      | Creating the base of the current product |
+EditPro was planned to become a website that helps content creators improve their editing skills through tutorials, creative inspiration and easy-to-use learning resources. The website was designed to provide beginners with an organised place to discover editing techniques, popular effects and helpful guides without searching across multiple websites.
+
+The intended audience includes beginner editors, social media creators and students interested in learning video editing. To suit this audience, the website focuses on a clean layout, responsive design and straightforward navigation so users can quickly find the information they need.
+
+The website also aims to encourage creativity by providing a collection of tutorial videos, feature explanations and editing advice that helps users produce higher-quality videos.
+
 ---
 
-> **Student Declaration:** All work submitted is my own except where explicitly acknowledged above.
+## 3.2 What You Delivered
+
+| Page | Route | What it delivers |
+|------|-------|------------------|
+| Home | `/` | A responsive homepage featuring a hero section, navigation bar and introduction to EditPro. |
+| About Us | `/aboutus` | Explains the purpose, mission and background of EditPro. |
+| Features | `/feature` | Displays the main features offered by EditPro including tutorials, AI support and editing resources. |
+| Tutorials | `/tutorials` | Provides twelve YouTube editing tutorials displayed in a responsive layout for easy viewing. |
+| Contact | `/contact` | Includes an embedded Google Map, contact details and a contact form. |
+| Sign Up | `/signup` | Allows users to register with a username, email address and password. |
+
+---
+
+## 3.3 Evaluation Against Your Intent
+
+The main goal of EditPro was to provide an easy-to-use website that helps users improve their video editing skills. This goal has been achieved through the Tutorials page, which contains multiple YouTube tutorials covering editing techniques and creative effects. The Features page also introduces users to the tools and resources available throughout the website.
+
+Another important objective was creating a modern and accessible design. This was achieved by using Bootstrap to build responsive layouts, cards, buttons and forms. The navigation bar appears on every page, making it easy for users to move between different sections of the website. On smaller devices, the navbar changes into a hamburger menu, improving usability on mobile phones.
+
+Although the website successfully delivers tutorials and helpful information, there are still improvements that could be made. Future versions could include user accounts with saved progress, AI-powered editing suggestions, downloadable editing presets, searchable tutorials and a community forum where creators can share advice and feedback.
+
+---
+
+## 3.4 Overall Effectiveness
+
+Overall, EditPro successfully meets its purpose of helping beginner video editors learn new editing techniques. The combination of tutorials, feature explanations and a clean user interface makes the website simple to navigate and useful for its target audience.
+
+The greatest improvement would be adding interactive features such as personalised accounts, favourite tutorials, AI editing recommendations and downloadable project files. These additions would transform EditPro from an informational website into a complete learning platform for video editors.
+
+---
+
+# 4. Acknowledgements
+
+| What you used | Source / Creator | Licence | Purpose |
+|---------------|-----------------|----------|----------|
+| Bootstrap | Bootstrap Team | MIT | Responsive layout and components |
+| Flask | Pallets Projects | BSD | Backend framework |
+| Google Maps | Google | Standard | Embedded map on Contact page |
+| YouTube | YouTube | Standard | Embedded editing tutorials |
+| Google Fonts | Google | SIL Open Font License | Website typography |
+| Images | **(Add image source here)** | **(Licence)** | Homepage |
+| Images | **(Add image source here)** | **(Licence)** | About Us |
+| Images | **(Add image source here)** | **(Licence)** | Features |
+| Images | **(Add image source here)** | **(Licence)** | Tutorials |
+| Images | **(Add image source here)** | **(Licence)** | Contact |
+| Logo | **(Add logo source here if applicable)** | **(Licence)** | EditPro branding |
+
+---
+
+**Student Declaration:** All work submitted is my own except where explicitly acknowledged above.
