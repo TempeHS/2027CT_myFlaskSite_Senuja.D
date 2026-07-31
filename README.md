@@ -54,9 +54,9 @@ The primary audience of EditPro is teenagers and young adults who create content
 | About Us | Provides information about the purpose of EditPro, its creation and its mission to help creators improve their editing skills. |  <img width="250" height="135" alt="walkthrough" src="https://github.com/user-attachments/assets/4cf87109-4db5-431f-abe8-9b61d107d2bf" /> |
 | Features | Highlights the main features of EditPro including tutorials, AI assistance, trending editing styles and beginner-friendly learning resources. | <img width="250" height="135" alt="walkthrough" src="https://github.com/user-attachments/assets/d39babe7-35cb-49a1-8c1d-b1dfe1d5aed2" /> |
 | Tutorials | A collection of embedded YouTube tutorials teaching editing techniques and effects for CapCut and other editing software. | <img width="250" height="135" alt="walkthrough" src="https://github.com/user-attachments/assets/fdfe0fa5-408f-4862-9b9d-5cf1558e2255" /> |
-| Contact | Contains a Google Maps location, contact information and a Bootstrap contact form allowing users to send enquiries. | |
-| Sign Up | A registration page allowing users to create an account by entering a username, email and password. | |
-| Mobile View | Shows the responsive design including the hamburger navigation menu and mobile-friendly layout. | |
+| Contact | Contains a Google Maps location, contact information and a Bootstrap contact form allowing users to send enquiries. | <img width="250" height="135" alt="walkthrough" src="https://github.com/user-attachments/assets/5b63b61f-c0cd-420f-8484-3a746eca11cf" />|
+| Sign Up | A registration page allowing users to create an account by entering a username, email and password. |<img width="250" height="135" alt="walkthrough" src="https://github.com/user-attachments/assets/7695ad03-0403-4ab7-82dc-4ad38fcce1ad" /> |
+| Mobile View | Shows the responsive design including the hamburger navigation menu and mobile-friendly layout. |<img width="250" height="135" alt="walkthrough" src="https://github.com/user-attachments/assets/9f230cd7-ca74-4215-ad5c-f4a87e89a1e6" /> |
 
 ---
 
@@ -110,14 +110,27 @@ The greatest improvement would be adding interactive features such as personalis
 | Bootstrap | Bootstrap Team | MIT | Responsive layout and components |
 | Flask | Pallets Projects | BSD | Backend framework |
 | Google Maps | Google | Standard | Embedded map on Contact page |
-| YouTube | YouTube | Standard | Embedded editing tutorials |
+| YouTube Video – *How to Edit Better Videos* | Dee Nimmin (@DeeNimmin) | Standard YouTube License | Tutorial linked from the Tutorials page using hyperlinks (`<a href>`); videos are not reproduced or hosted by EditPro. |
+| YouTube Video – *Editing Tutorial* | Exal.Visuals (@Exal.Visuals) | Standard YouTube License | Tutorial linked from the Tutorials page using hyperlinks (`<a href>`); videos are not reproduced or hosted by EditPro. |
+| YouTube Video – *How to Edit Better Videos* | Dee Nimmin (@DeeNimmin) | Standard YouTube License | Tutorial linked from the Tutorials page using hyperlinks (`<a href>`); videos are not reproduced or hosted by EditPro. |
+| YouTube Video – *Editing Tutorial* | Exal.Visuals (@Exal.Visuals) | Standard YouTube License | Tutorial linked from the Tutorials page using hyperlinks (`<a href>`); videos are not reproduced or hosted by EditPro. |
+| YouTube Video – *Editing Tutorial* | Exal.Visuals (@Exal.Visuals) | Standard YouTube License | Tutorial linked from the Tutorials page using hyperlinks (`<a href>`); videos are not reproduced or hosted by EditPro. |
+| YouTube Video – *Editing Tutorial* | Millie Adrian (@MillieAdrian) | Standard YouTube License | Tutorial linked from the Tutorials page using hyperlinks (`<a href>`); videos are not reproduced or hosted by EditPro. |
+| YouTube Video – *Editing Tutorial* | Metics Media (@MeticsMedia) | Standard YouTube License | Tutorial linked from the Tutorials page using hyperlinks (`<a href>`); videos are not reproduced or hosted by EditPro. |
+| YouTube Video – *Editing Tutorial* | Exal.Visuals (@Exal.Visuals) | Standard YouTube License | Tutorial linked from the Tutorials page using hyperlinks (`<a href>`); videos are not reproduced or hosted by EditPro. |
+| YouTube Video – *Editing Tutorial* | Matt Loui (@MattLoui) | Standard YouTube License | Tutorial linked from the Tutorials page using hyperlinks (`<a href>`); videos are not reproduced or hosted by EditPro. |
+| YouTube Video – *Editing Tutorial* | Mr Paul Xavier (@MrPaulXavier) | Standard YouTube License | Tutorial linked from the Tutorials page using hyperlinks (`<a href>`); videos are not reproduced or hosted by EditPro. |
+| YouTube Video – *Editing Tutorial* | Mr Paul Xavier (@MrPaulXavier) | Standard YouTube License | Tutorial linked from the Tutorials page using hyperlinks (`<a href>`); videos are not reproduced or hosted by EditPro. |
+| YouTube Video – *Editing Tutorial* | Kevin Stratvert (@KevinStratvert) | Standard YouTube License | Tutorial linked from the Tutorials page using hyperlinks (`<a href>`); videos are not reproduced or hosted by EditPro. |
+| YouTube Video – *Editing Tutorial* | Collin Michael (@CollinMichael) | Standard YouTube License | Tutorial linked from the Tutorials page using hyperlinks (`<a href>`); videos are not reproduced or hosted by EditPro. |
+| YouTube Video – *Editing Tutorial* | Ben Claremont (@BenClaremont) | Standard YouTube License | Tutorial linked from the Tutorials page using hyperlinks (`<a href>`); videos are not reproduced or hosted by EditPro. |
 | Google Fonts | Google | SIL Open Font License | Website typography |
-| Images | **(Add image source here)** | **(Licence)** | Homepage |
-| Images | **(Add image source here)** | **(Licence)** | About Us |
-| Images | **(Add image source here)** | **(Licence)** | Features |
-| Images | **(Add image source here)** | **(Licence)** | Tutorials |
-| Images | **(Add image source here)** | **(Licence)** | Contact |
-| Logo | **(Add logo source here if applicable)** | **(Licence)** | EditPro branding |
+| Images | CapCut| CapCut Terms of Service | Homepage |
+| Images | Capcut| CapCut Terms of Service* | About Us |
+| Images |Logical Position| N/A| Features |
+| Images | Capcut| CapCut Terms of Service | Tutorials |
+| Images | Reddit | Copyright by the original Reddit user (subject to the Reddit User Agreement) | Contact |
+| Logo | Logo created on Canva |Created by me| EditPro branding |
 
 ---
 
