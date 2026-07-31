@@ -47,22 +47,16 @@ The primary audience of EditPro is teenagers and young adults who create content
 - Responsive navigation bar
 - Hamburger menu on mobile
 
-| Feature | Detail | Image |
+| Feature | Detail | GIF video or Image |
 |---------|--------|-------|
-| Homepage | <br>The homepage introduces users to EditPro through a modern hero section, featured editing tools and navigation buttons leading to the rest of the website. |
- **(<img width="250" height="135" alt="walkthrough" src="https://github.com/user-attachments/assets/644b1105-ac63-436f-8c97-92cc0d8c78d7" />
-| Navbar | <br>A responsive navigation bar with links to Home, About Us, Features, Tutorials, Contact and Sign Up. On mobile devices it collapses into a hamburger menu. | **(<img width="250" height="16" alt="image" src="https://github.com/user-attachments/assets/4b4eec54-e7bb-4adb-af9b-fea2a63ec021" />
-)**
-| About Us | **(<img width="250" height="135" alt="walkthrough" src="https://github.com/user-attachments/assets/4cf87109-4db5-431f-abe8-9b61d107d2bf" />
-)**<br>Provides information about the purpose of EditPro, its creation and its mission to help creators improve their editing skills. |
-| Features | **(<img width="250" height="135" alt="walkthrough" src="https://github.com/user-attachments/assets/d39babe7-35cb-49a1-8c1d-b1dfe1d5aed2" />
-)**<br>Highlights the main features of EditPro including tutorials, AI assistance, trending editing styles and beginner-friendly learning resources. |
-| Tutorials | **(<img width="250" height="135" alt="walkthrough" src="https://github.com/user-attachments/assets/fdfe0fa5-408f-4862-9b9d-5cf1558e2255" />
-
-)**<br>A collection of embedded YouTube tutorials teaching editing techniques and effects for CapCut and other editing software. |
-| Contact | **(Insert screenshot here)**<br>Contains a Google Maps location, contact information and a Bootstrap contact form allowing users to send enquiries. |
-| Sign Up | **(Insert screenshot here)**<br>A registration page allowing users to create an account by entering a username, email and password. |
-| Mobile View | **(Insert screenshot here)**<br>Shows the responsive design including the hamburger navigation menu and mobile-friendly layout. |
+| Homepage | The homepage introduces users to EditPro through a modern hero section, featured editing tools and navigation buttons leading to the rest of the website. |<img width="250" height="135" alt="walkthrough" src="https://github.com/user-attachments/assets/644b1105-ac63-436f-8c97-92cc0d8c78d7" /> |
+| Navbar | A responsive navigation bar with links to Home, About Us, Features, Tutorials, Contact and Sign Up. On mobile devices it collapses into a hamburger menu. | <img width="250" height="16" alt="image" src="https://github.com/user-attachments/assets/4b4eec54-e7bb-4adb-af9b-fea2a63ec021" /> |
+| About Us | Provides information about the purpose of EditPro, its creation and its mission to help creators improve their editing skills. |  <img width="250" height="135" alt="walkthrough" src="https://github.com/user-attachments/assets/4cf87109-4db5-431f-abe8-9b61d107d2bf" /> |
+| Features | Highlights the main features of EditPro including tutorials, AI assistance, trending editing styles and beginner-friendly learning resources. | <img width="250" height="135" alt="walkthrough" src="https://github.com/user-attachments/assets/d39babe7-35cb-49a1-8c1d-b1dfe1d5aed2" /> |
+| Tutorials | A collection of embedded YouTube tutorials teaching editing techniques and effects for CapCut and other editing software. | <img width="250" height="135" alt="walkthrough" src="https://github.com/user-attachments/assets/fdfe0fa5-408f-4862-9b9d-5cf1558e2255" /> |
+| Contact | Contains a Google Maps location, contact information and a Bootstrap contact form allowing users to send enquiries. | |
+| Sign Up | A registration page allowing users to create an account by entering a username, email and password. | |
+| Mobile View | Shows the responsive design including the hamburger navigation menu and mobile-friendly layout. | |
 
 ---
 
