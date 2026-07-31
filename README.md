@@ -6,7 +6,7 @@
 | **Student Name(s)** | Senuja De Silva |
 | **Class / Course** | 9CT1; 2027 Computer Technologies |
 | **Repository** | 2027CT_MyFlaskSite_Senuja.D |
-| **Live Site / Codespaces URL** | *(Insert Codespaces URL here)* |
+| **Live Site / Codespaces URL** | *https://fluffy-system-v64r9q5547x9hp4jp.github.dev/* |
 | **Date** | 31/07/2026 |
 
 > EditPro is a website designed to help content creators improve their video editing skills through tutorials, editing tips and creative resources.
@@ -34,9 +34,7 @@ The primary audience of EditPro is teenagers and young adults who create content
 
 ---
 
-# 2. Walkthrough Video (2 minutes)
-
-*(Insert your YouTube walkthrough link here.)*
+# 2. Walkthrough of the features of my site
 
 ### Your walkthrough should show:
 
@@ -51,8 +49,10 @@ The primary audience of EditPro is teenagers and young adults who create content
 
 | Feature | Detail |
 |---------|--------|
-| Homepage | **(Insert screenshot here)**<br>The homepage introduces users to EditPro through a modern hero section, featured editing tools and navigation buttons leading to the rest of the website. |
-| Navbar | **(Insert screenshot here)**<br>A responsive navigation bar with links to Home, About Us, Features, Tutorials, Contact and Sign Up. On mobile devices it collapses into a hamburger menu. |
+| Homepage | **(<img width="1904" height="993" alt="walkthrough" src="https://github.com/user-attachments/assets/644b1105-ac63-436f-8c97-92cc0d8c78d7" />
+<br>The homepage introduces users to EditPro through a modern hero section, featured editing tools and navigation buttons leading to the rest of the website. |
+| Navbar | **(<img width="946" height="58" alt="image" src="https://github.com/user-attachments/assets/4b4eec54-e7bb-4adb-af9b-fea2a63ec021" />
+)**<br>A responsive navigation bar with links to Home, About Us, Features, Tutorials, Contact and Sign Up. On mobile devices it collapses into a hamburger menu. |
 | About Us | **(Insert screenshot here)**<br>Provides information about the purpose of EditPro, its creation and its mission to help creators improve their editing skills. |
 | Features | **(Insert screenshot here)**<br>Highlights the main features of EditPro including tutorials, AI assistance, trending editing styles and beginner-friendly learning resources. |
 | Tutorials | **(Insert screenshot here)**<br>A collection of embedded YouTube tutorials teaching editing techniques and effects for CapCut and other editing software. |
